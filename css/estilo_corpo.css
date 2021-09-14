@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background: gainsboro;
+    justify-content: space-around;
+}
+
+.box{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    background-color: white;
+    font-weight: 400;
+}
+
+#box_1, #box_2, #box_3, h2{
+    text-align: center;
+}
+
+#box_1, #box_2, #box_3, p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+span{
+    display: block;
+    padding: 5px 10px;
+}
+
+.photos{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#photo_1, #photo_2{
+    width: 620px;
+    display: inline-block;
+}
+
+#photo_1 img{
+    max-width: 620px;
+    max-height: 620px;
+    width: auto;
+    height: auto;
+}
+
+#photo_2 img{
+    max-width: 620px;
+    max-height: 620px;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+}
+
+/* Responsividade das imagens */
+@media screen and (max-width: 1200px){
+
+    .photos{
+        width: 500px;
+        justify-content: center;
+    }
+
+    #photo_1 img{
+        max-width: 500px;
+        max-height: 500px;
+        width: auto;
+        height: auto;
+        margin-left: 400px;
+    }
+
+    #photo_2 img{
+        max-width: 500px;
+        max-height: 500px;
+        width: auto;
+        height: auto;
+        margin-left: 300px;
+    } 
+}
+
+@media screen and (max-width: 1095px){
+
+    .photos{
+        width: 400px;
+        justify-content: center;
+    }
+
+    #photo_1 img{
+        max-width: 400px;
+        max-height: 400px;
+        width: auto;
+        height: auto;
+        margin-left: 500px;
+    }
+
+    #photo_2 img{
+        max-width: 400px;
+        max-height: 400px;
+        width: auto;
+        height: auto;
+        margin-left: 300px;
+    } 
+}
+
+@media screen and (max-width: 940px){
+
+    .photos{
+        width: 320px;
+        justify-content: center;
+    }
+
+    #photo_1 img{
+        max-width: 320px;
+        max-height: 320px;
+        width: auto;
+        height: auto;
+        margin-left: 500px;
+    }
+
+    #photo_2 img{
+        max-width: 320px;
+        max-height: 320px;
+        width: auto;
+        height: auto;
+        margin-left: 210px;
+    } 
+}
+
+@media screen and (max-width: 785px){
+
+    .photos{
+        width: 420px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #photo_1 img{
+        max-width: 420px;
+        max-height: 420px;
+        width: auto;
+        height: auto;
+        margin-left: 250px;
+    }
+
+    #photo_2 img{
+        max-width: 420px;
+        max-height: 420px;
+        width: auto;
+        height: auto;
+        margin-left: 250px;
+    } 
+}
+
+@media screen and (max-width: 619px){
+
+    .photos{
+        width: 320px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #photo_1 img{
+        max-width: 320px;
+        max-height: 320px;
+        width: auto;
+        height: auto;
+        margin-left: 235px;
+    }
+
+    #photo_2 img{
+        max-width: 320px;
+        max-height: 320px;
+        width: auto;
+        height: auto;
+        margin-left: 235px;
+    } 
+}
+
+@media screen and (max-width: 477px){
+
+    .photos{
+        width: 220px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #photo_1 img{
+        max-width: 220px;
+        max-height: 220px;
+        width: auto;
+        height: auto;
+        margin-left: 220px;
+    }
+
+    #photo_2 img{
+        max-width: 220px;
+        max-height: 220px;
+        width: auto;
+        height: auto;
+        margin-left: 220px;
+    } 
+}
+
+@media screen and (max-width: 372px){
+    .photos{
+        width: 300px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #photo_1 img{
+        max-width: 300px;
+        max-height: 300px;
+        width: auto;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    #photo_2 img{
+        max-width: 300px;
+        max-height: 300px;
+        width: auto;
+        height: auto;
+        margin-left: 0px;
+    } 
+}
+
+@media screen and (max-width: 327px){
+    .photos{
+        width: 170px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #photo_1 img{
+        max-width: 170px;
+        max-height: 170px;
+        width: auto;
+        height: auto;
+        margin-left: 80px;
+    }
+
+    #photo_2 img{
+        max-width: 170px;
+        max-height: 170px;
+        width: auto;
+        height: auto;
+        margin-left: 80px;
+    } 
+}
